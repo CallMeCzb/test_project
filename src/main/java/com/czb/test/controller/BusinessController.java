@@ -29,7 +29,7 @@ public class BusinessController {
         return "test";
     }
 
-    //测试1
+    //测试2
     @Autowired
     @Qualifier("myplan1")
     RdmpLaunchPlan rdmpLaunchPlan;
