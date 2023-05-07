@@ -10,12 +10,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RedissionConfig {
 //    @Value("${spring.redis.host}")
-    private String redisHost = "172.21.122.12";
+    private String redisHost = "127.0.0.1";
 
 //    @Value("${spring.redis.password}")
-    private String password = "RTm2Bp_3tL";
+    private String password = "czb123";
 
-    private int port = 48804;
+    private int port = 6379;
 
     @Bean
     public RedissonClient getRedisson() {
