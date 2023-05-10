@@ -29,4 +29,12 @@ public class BeanInjection1 {
         return launchPlan;
     }
 
+    @Bean
+    public RdmpLaunchPlan myplan11(){
+        System.out.println("myplan=====1");
+        RdmpLaunchPlan launchPlan = new RdmpLaunchPlan();
+        System.out.println("myplan=====2");
+        launchPlan.setPlanName("plan_name1");
+        return launchPlan;
+    }
 }
